@@ -1,6 +1,5 @@
 [build]
-  publish = "public"
-  command = ""
+  publish = "."
 
 [[headers]]
   for = "/*"
@@ -23,4 +22,3 @@
   for = "/sitemap.xml"
   [headers.values]
     Cache-Control = "public, max-age=3600"
-
