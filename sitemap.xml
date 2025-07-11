@@ -4,51 +4,41 @@
   <!-- Homepage -->
   <url>
     <loc>https://regretledger.com/</loc>
-    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- Ledger Hub -->
+  <!-- Ledger Articles -->
   <url>
     <loc>https://regretledger.com/ledger/index.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
 
-  <!-- Blog Posts (Corrected path: /ledger/posts/) -->
+  <!-- Example ledger posts (repeat this for every post you already published) -->
+  <url>
+    <loc>https://regretledger.com/ledger/posts/impulse-regret.html</loc>
+    <priority>0.7</priority>
+  </url>
   <url>
     <loc>https://regretledger.com/ledger/posts/regret-inflation.html</loc>
-    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://regretledger.com/ledger/posts/hidden-cost-of-financing.html</loc>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://regretledger.com/ledger/posts/emotional-pet-purchases.html</loc>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://regretledger.com/ledger/posts/unplanned-vices-costs.html</loc>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://regretledger.com/ledger/posts/social-pressure-spending.html</loc>
-    <changefreq>monthly</changefreq>
+    <loc>https://regretledger.com/ledger/posts/pet-purchase-pitfalls.html</loc>
+    <priority>0.7</priority>
   </url>
 
   <!-- Legal Pages -->
   <url>
     <loc>https://regretledger.com/legal/privacy-policy.html</loc>
-    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
   <url>
     <loc>https://regretledger.com/legal/terms-of-service.html</loc>
-    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
   <url>
     <loc>https://regretledger.com/legal/disclaimer.html</loc>
-    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
 
 </urlset>
