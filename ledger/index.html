@@ -3,36 +3,55 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Regret Ledger – The Place to Log What You’d Rather Forget</title>
-  <meta name="description" content="Regret Ledger is a brutally honest digital confession log for your spending regrets, personal blunders, and those little mistakes that still sting." />
+  <title>Spin the Ledger | RegretLedger</title>
+  <meta name="description" content="Spin the Ledger to reveal anonymous financial regrets. No tracking, no submissions—just brutal honesty and dark humor." />
   <link rel="stylesheet" href="/style.css" />
 </head>
+
 <body>
   <header>
-    <h1>Regret Ledger 📓</h1>
-    <p>Your digital journal of mistakes, mishaps, and money moves you'd rather not repeat.</p>
+    <h1>🎲 Spin the Ledger</h1>
+    <p>Brace yourself for brutally honest money regrets.</p>
   </header>
 
-  <section>
-    <h2>💸 What Is This?</h2>
-    <p>This is not therapy. It’s not advice. It’s just a place to write down your financial regrets, personal blunders, or that *“what was I thinking?”* purchase.</p>
-    <p>Write it down. See it clearly. Maybe laugh at it later. Or not.</p>
-  </section>
+  <main>
+    <section>
+      <button id="spin-button" class="cta-button">Spin Again</button>
+      <div id="regret-display" class="regret-box">
+        <p>Loading regret...</p>
+      </div>
+    </section>
 
-  <section>
-    <h2>✍️ Log Your Regret</h2>
-    <p>Ready to confess?</p>
-    <a href="/ledger/new.html" class="cta-button">Start Logging</a>
-  </section>
+    <p><a href="/" class="back-link">← Back to Homepage</a></p>
+  </main>
 
-  <section>
-    <h2>📖 Read Other Regrets</h2>
-    <p>Sometimes, it helps to see that everyone else is winging it too.</p>
-    <a href="/ledger/regrets.html" class="cta-link">Browse Public Regrets</a>
-  </section>
+  <script>
+    const regrets = [
+      "I bought an $800 phone to feel rich. I'm still broke, but now I can Google it faster.",
+      "Signed up for 3 streaming services I never use. I just watch free YouTube anyway.",
+      "Spent $200 on kitchen gadgets. Still order takeout every night.",
+      "Invested in crypto at the peak. Now I own digital dust.",
+      "Bought a fitness tracker. It tracks how little I move.",
+      "Paid $400 for a course on 'How to Stop Overspending.' Irony, anyone?",
+      "Impulse bought a car I can't afford because 'YOLO.' Now it's 'OH NO.'",
+      "Subscribed to a budgeting app. Forgot to cancel. Very on-brand.",
+      "Maxed out my credit card… to buy self-help books about debt.",
+      "Spent $300 on a standing desk. Still work from bed."
+    ];
 
-  <footer>
-    <p>&copy; 2025 Regret Ledger. No financial advice. No refunds on bad decisions. Built with wit & minimal HTML.</p>
-  </footer>
+    const display = document.getElementById("regret-display");
+    const button = document.getElementById("spin-button");
+
+    function spinRegret() {
+      const random = regrets[Math.floor(Math.random() * regrets.length)];
+      display.innerHTML = `<p>${random}</p>`;
+    }
+
+    button.addEventListener("click", spinRegret);
+
+    // Auto-spin on page load
+    spinRegret();
+  </script>
 </body>
 </html>
+
