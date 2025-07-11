@@ -15,25 +15,25 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Blog Posts -->
+  <!-- Blog Posts (Corrected path: /ledger/posts/) -->
   <url>
-    <loc>https://regretledger.com/ledger/post/regret-inflation.html</loc>
+    <loc>https://regretledger.com/ledger/posts/regret-inflation.html</loc>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://regretledger.com/ledger/post/hidden-cost-of-financing.html</loc>
+    <loc>https://regretledger.com/ledger/posts/hidden-cost-of-financing.html</loc>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://regretledger.com/ledger/post/emotional-pet-purchases.html</loc>
+    <loc>https://regretledger.com/ledger/posts/emotional-pet-purchases.html</loc>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://regretledger.com/ledger/post/unplanned-vices-costs.html</loc>
+    <loc>https://regretledger.com/ledger/posts/unplanned-vices-costs.html</loc>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://regretledger.com/ledger/post/social-pressure-spending.html</loc>
+    <loc>https://regretledger.com/ledger/posts/social-pressure-spending.html</loc>
     <changefreq>monthly</changefreq>
   </url>
 
